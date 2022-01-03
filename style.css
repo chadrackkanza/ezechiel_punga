@@ -30,6 +30,8 @@
 }
 @media screen and (max-width: 805px) {
     .conteneur .tete h1 {
+        width: 10%;
+        height: 10%;
     }
     .conteneur .corps {
         height: 20%;
