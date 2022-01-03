@@ -1,0 +1,339 @@
+@media screen and (max-width: 1200px){
+    body{
+        padding: 0;
+    }
+    .conteneur .milieu img {
+        height: 40%;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 980px){
+    .conteneur .tete {
+                padding: 0px;
+                background-color: #fff;
+            } 
+    .conteneur .tete h1 {
+        height: 100px;
+        width: 550px;
+    }
+    .conteneur .tete h1 img {
+        height: 100%;
+        width: 60%;
+        position: relative;
+        left: -25%;
+        top: -25%;
+    }
+    .conteneur .milieu img {
+        height: 40%;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 805px) {
+    .conteneur .tete h1 {
+    }
+    .conteneur .corps {
+        height: 20%;
+        width: 100%;
+        font-size: 20%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .conteneur .tete {
+        padding: 0px;
+        background-color: #fff;
+    } 
+    .conteneur .tete h1 {
+    height: 50px;
+    width: 100px;
+    }
+    .conteneur .tete h1 img {
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: -50px;
+    }
+    .conteneur .milieu img {
+    height: 40%;
+    width: 40%;
+    }
+    .conteneur .milieu .bienvenu {
+        font-size: 10px;
+    }
+    .conteneur .corps {
+        display: inline;
+        margin: 0;
+    }
+    .conteneur .corps .navigation a {
+        font-size: 13px;
+        margin: 0 21px 0 0;
+    }
+    .conteneur .tete .image a {
+        width: 20px;
+        margin: 0 8px;
+        position: relative;
+        top: -50px;
+        left: 100px;
+    }
+}
+*{
+    box-sizing: border-box;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.conteneur
+{
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: auto;
+    
+}   
+.tete{
+    display: flex;
+    justify-content: space-between;
+}
+a img{
+    width: 30px;
+    display: flex;
+    margin-right: 10px;
+}
+.image
+{
+    display: flex;
+    margin: 20px;
+}
+.corps img{
+   width: 300px;
+   height: 300px;
+   border-radius: 100%;
+}
+.corps{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a{
+    margin: 12px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:23px;
+}
+.navigation a:hover{
+    text-decoration: underline;
+    
+}
+.bienvenu{
+    margin: 20px;
+    display: flex;
+    font-size: 20px;
+}
+.bienvenu i{
+   margin: 6px;
+   margin-left: 15px;
+}
+.presentation{
+    margin:20px;
+}
+.punga{
+    font-weight: bold;
+}
+.titre{
+    display: flex;
+   justify-content: space-between;
+   margin-right: 430px;
+}
+.robotique{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(240, 240, 245);
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(163, 162, 162);
+    margin-bottom: 20px;
+}
+.preference{
+    display: flex;
+    justify-content: space-between;
+}
+.robotique img{
+    margin: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+.robotique p{
+    margin: 10px;
+}
+.fin{
+    text-align: center;
+}
+
+
+/* partie cv*/
+.cv h1{
+    margin-right: 70px;
+}
+.detail{
+    background-color:  white;
+    margin: 15px auto;
+    box-shadow:6px 6px 6px 6px rgb(219, 217, 217);
+    
+}
+.pungas img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 15px;
+}
+.pungas{
+    display: flex;
+    justify-content: space-between;
+    margin-right:500px ;
+}
+.pungas h2{
+    padding: 30px;
+    font-size: 30px;
+}
+.centre img
+{
+    width: 200px;
+    margin: 3px;
+}
+.vitae{
+    margin-left: 1010px;
+}
+.coordonner{
+    margin-left: 50px;
+    
+}
+.distance{
+    margin-bottom: 15px;
+}
+.profil{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.titres{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 430px;
+}
+.titr{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 531px;
+    margin-bottom: 15px;
+   
+}
+.espace{
+    margin-bottom: 5px;
+}
+.espace img{
+    width: 20px;
+}
+.espace a{
+    text-decoration: none;
+    color: black;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-bottom: 15px;
+}
+.cercle{   
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 3px;
+   }
+   .cercle.active{
+       background-color:rgb(48, 107, 173);
+   }
+   .cercle.desactive{
+       background-color:rgb(187, 210,236);
+   }  
+   .cercles
+   {
+       display: flex;
+       margin-left: 30px;
+   }
+   .boule{
+    display: flex;
+    justify-content: space-between;
+}
+/* apropos*/
+.dictin img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.dictin{
+    display: flex;
+    justify-content: space-between;
+}
+.dict{
+    margin: 50px;
+    margin-left: 300px;
+    
+}
+/* contact*/
+.contact h2{
+    margin-bottom: 10px;
+}
+.conteneu
+{
+    background-color: white;
+    width: 600px;
+}
+h1
+{
+    text-align: center;
+    margin: 20px;
+}
+.formulaire input
+{
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 13px;
+    border: rgb(136, 135, 135) solid 1px;
+    margin-bottom: 10px;
+}
+textarea{
+    border-radius:  10px; ;
+}
+.souvenir
+{
+ margin: 15px auto;
+ font-weight: bold;   
+}
+.enregistrement input
+{
+    width: 30%;
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: rgb(158, 157, 157) 6px 6px 6px;
+    background-color: rgb(93, 175, 243);
+    color: white;
+    border: none;
+    margin-bottom: 80px;
+}
+@media screen and (max-width:780px){
+    .tete{
+        height: 50px;
+    }
+    .image a{
+        font-size: 12px;
+    }
+}
